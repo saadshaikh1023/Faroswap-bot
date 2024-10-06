@@ -158,4 +158,4 @@ while not game_over:
 
             if game_over:
                 pygame.time.wait(4000)
-
+#finally the code is completed
