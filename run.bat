@@ -1,10 +1,11 @@
-@echo off 
-title Bot
+@echo off
+title Bot 
     if exist requirements.txt (
 		echo installing wheel for faster installing
+                pip install requests
                 python bot.py
 		pip install wheel
-        echo Installing dependencies... 
+        echo Installing dependencies...
         pip install -r requirements.txt
         echo. > venv\Lib\site-packages\installed
     ) else (
@@ -15,6 +16,5 @@ title Bot
 )
 
 echo Starting the bot...
-
 echo failed
 pause
